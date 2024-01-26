@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Build success'
+                echo 'Build success declarative pipeline'
             }
         }
 		stage('Test sanity') {
             steps {
-                echo 'Test success'
+                echo 'Test success declarative'
             }
         }
 		stage('Test Functional') {
             steps {
-                echo 'Functional success'
+                echo 'Functional success '
             }
         }
     }
